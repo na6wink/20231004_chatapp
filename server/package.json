@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.1",
+    "socket.io": "^4.7.2"
+  },
+  "name": "20231004_chatapp",
+  "description": "Repo for Chatapp",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/na6wink/20231004_chatapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/na6wink/20231004_chatapp/issues"
+  },
+  "homepage": "https://github.com/na6wink/20231004_chatapp#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
